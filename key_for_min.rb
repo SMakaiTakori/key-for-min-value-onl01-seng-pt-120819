@@ -7,7 +7,8 @@ def key_for_min_value(name_hash)
   
   name_hash.collect do |key, value|
     if smallest_value == 0 || value < smallest_key
-    lowest_value = value
+    smallest_value = value
+    
 end
 
 end
